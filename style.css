@@ -118,7 +118,7 @@ li{
     color: var(--text-gray);
     margin: 0 6vw 80px 6vw;
     animation: fadeIn 1.9s ease-out;
-    height: 30vh;
+    height: 50vh;
 }
 
 /* Seção Projetos */
