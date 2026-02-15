@@ -58,7 +58,7 @@ li{
 
 @keyframes pulse {
     0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.05); }
+    50% { transform: scale(1.1); }
 }
 
 @keyframes slideInLeft {
@@ -284,7 +284,8 @@ li{
     display: block;
 }
 
-.skill-item:hover i, svg:hover, .skill-item h3:hover {
+
+.skill-item img:hover, i:hover, svg:hover, h3:hover{
     animation: pulse 1s infinite;
 }
 
