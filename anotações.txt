@@ -1,5 +1,5 @@
-adicionar no meu portfolio:
-Objetivos de colaboração(scrum, equipes, etc, processos de desenvolvimento)
-Objetivos de carreira(full stack, engenharia de software)
+consertar o tamanho dos cards que devem ser independentes
 
-colocar link do meu portfolio em todos os projetos no footer no lugar do insta
+hover de escala no conteudo das habilidades
+
+e a mesma sombra de hover que colaboraçao e e carreira nos cards das habilidades

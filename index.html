@@ -27,32 +27,36 @@
     <script src="js.js" defer></script>
 </head>
 <body>
+    <div class="cursor-glow"></div>
 
-	<section class="hero fade-in" id="home">
+    
+
+	<section class="hero " id="home">
         <div class="container">
             <h1>Desenvolvedor Front-End</h1>
             <div class="typewriter">Transformando ideias em experiências digitais</div>
-            <p>Crio interfaces modernas, responsivas e com animações fluidas que proporcionam a melhor experiência ao usuário. Recém formado, constantemente aprendendo as tecnologias mais usadas no mercado atual e em busca de aperfeiçoamento profissonal. </p>
+            <p>Olá, me chamo Patrick! Crio interfaces modernas, responsivas e com animações fluidas que proporcionam a melhor experiência ao usuário.</p>
+            <p> Recém formado, constantemente aprendendo as tecnologias mais usadas no mercado atual e em busca de aperfeiçoamento profissonal. </p>
         </div>
     </section>
 
 	<!-- Projetos -->
-    <section class="projects fade-in" id="projects">
+    <section class="projects " id="projects">
         <div class="container">
             <h2 class="section-title">Meus Projetos</h2>
             <div class="projects-grid">
                 
                 <!-- Projeto 1 -->
-                <div class="project-card">
+                <div class="project-card" id="projeto1">
                     <div class="project-img">
                         <img src="images/karen.png" alt="Print de home de e-commerce de roupas femininas">
                     </div>
                     <div class="project-info">
-                        <h3>E-commerce (Projeto pessoal)</h3>
+                        <h3>E-commerce (Case)</h3>
                         <p>Loja virtual com carrinho de compras, criação de contas, categorias, campo de pesquisa de produtos e +</p>
                         <div class="project-tech">
-                            <span class="tech-tag">HTML puro</span>
-                            <span class="tech-tag">CSS puro</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
                             <span class="tech-tag">Vanilla</span>
                             <span class="tech-tag">Google Sign-in API</span>
                         </div>
@@ -60,21 +64,19 @@
                             <a href="https://github.com/Patrickhenrique1215/Karen-s-Boutique.git" target="_blank" class="project-link">
                                 <i class="fab fa-github"></i> GitHub
                             </a>
-                            <a href="https://karen-s-boutique.vercel.app/index.html" target="_blank" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Demo
-                            </a>
+                           
                         </div>
                     </div>
                 </div>
 
                 <!-- Projeto 2 -->
-                <div class="project-card">
+                <div class="project-card" id="projeto2">
                     <div class="project-img">
                         <img src="images/tabelaflash.png" alt="Print de pagina inicial de gerador simples e rápido de tabelas">
                     </div>
                     <div class="project-info">
-                        <h3>Gerador de tabelas (Projeto pessoal)</h3>
-                        <p>aplicação web completa para gerar tabelas personalizadas e exportar em múltiplos formatos. Responsivo, com animações, uso de frameworks de exportação e Vite.</p>
+                        <h3>Gerador de tabelas (Case)</h3>
+                        <p>Aplicação web para gerar tabelas personalizadas e exportar em múltiplos formatos. Responsivo, com animações, uso de frameworks de exportação e Vite.</p>
                         <div class="project-tech">
                             <span class="tech-tag">HTML</span>
                             <span class="tech-tag">CSS</span>
@@ -87,9 +89,74 @@
                             <a href="https://github.com/Patrickhenrique1215/Tabela-Flash.git" target="_blank" class="project-link">
                                 <i class="fab fa-github"></i> GitHub
                             </a>
-                            <a href="https://tabela-flash.vercel.app" target="_blank" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Demo
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="project-card" id="projeto3">
+                    <div class="project-img">
+                        <img src="images/animaverso.png" alt="Print de pagina inicial de streaming focado am animações">
+                    </div>
+                    <div class="project-info">
+                        <h3>Streaming Web/SPA (Case)</h3>
+                        <p>Streaming com uso da API TMDb com diversas categorias e combinações de gêneros.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vite</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Sass</span>
+                            <span class="tech-tag">TMDb API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Patrickhenrique1215/Animaverso.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
                             </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 4 -->
+                <div class="project-card nocursorpointer" id="abrir">
+                    <div class="project-img">
+                        <img src="images/animaversomobile.png" alt="Print de pagina inicial de streaming focado am animações">
+                    </div>
+                    <div class="project-info">
+                        <h3>Streaming Mobile/SPA (Case)</h3>
+                        <p>Streaming com uso da API TMDb com diversas categorias e combinações de gêneros.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Expo Go</span>
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">TMDb API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Patrickhenrique1215/Animaverso-Mobile.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                        <div class="linkexpo">
+                            <p>No seu celular ANDROID, clique no link abaixo, vá até <b>Build Artifact</b>, pressione <b>Install</b> para instalar e testar o app(Somente ANDROID).</p>
+                            <a href="https://expo.dev/accounts/patrickhenrique/projects/animaverso/builds/91360dc9-2fc6-4f46-82e2-131edd106edb" target="_blank" rel="noopener noreferrer">LINK EXPO</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Projeto 5 -->
+                <div class="project-card" id="projeto5">
+                    <div class="project-img">
+                        <img >
+                    </div>
+                    <div class="project-info">
+                        <h3></h3>
+                        <p>Em breve: um portfolio de jornalista..</p>
+                        <div class="project-tech">
+                           
+                        </div>
+                        <div class="project-links">
+                           
+                            
                         </div>
                     </div>
                 </div>
@@ -99,9 +166,9 @@
     </section>
 
 	<!-- Habilidades -->
-    <section class="skills fade-in" id="skills">
+    <section class="skills " id="skills">
         <div class="container">
-            <h2 class="section-title">Habilidades Técnicas</h2>
+            <h2 class="section-title">Habilidades e Ferramentas</h2>
             <div class="skills-grid">
                 <div class="skill-item">
                     <i class="fab fa-html5"></i>
@@ -181,57 +248,66 @@
         </div>
     </section>
 
-    <section class="goals fade-in">
+    <section class="goals ">
         <div class="container">
             <h2 class="section-title">Objetivos</h2>
 
             <div class="goals-grid">
 
-            <div class="goal-card">
-                <h3>🤝 Colaboração</h3>
-                <p>
-                Experiência e interesse em trabalhar com metodologias ágeis como Scrum, 
-                colaboração em equipe, versionamento com Git e desenvolvimento orientado a boas práticas.
-                </p>
+                <div class="goal-card">
+                    <h3>Colaboração</h3>
+                    <p>
+                    Tenho grande interesse em trabalhar com metodologias ágeis como Scrum, 
+                    colaboração em equipe, versionamento com Git e desenvolvimento orientado a boas práticas.
+                    </p>
+                </div>
+
+                <div class="goal-card">
+                    <h3>Carreira</h3>
+                    <p>
+                    Evoluir para Full Stack e Engenharia de Software, dominando arquitetura, 
+                    performance e escalabilidade de aplicações modernas.
+                    </p>
+                </div>
+
             </div>
 
-            <div class="goal-card">
-                <h3>🎯 Carreira</h3>
-                <p>
-                Evoluir para Full Stack e Engenharia de Software, dominando arquitetura, 
-                performance e escalabilidade de aplicações modernas.
-                </p>
-            </div>
+            <div class="goals-grid">
 
+                <a href="#">
+                    <button >Download CV</button>
+                </a>
+
+                <a href="mailto:patrick.henrique.1215@gmail.com">
+                    <button>Entre em contato</button>
+                </a>
             </div>
         </div>
     </section>
 
-    <footer class="fade-in" id="contact">
+    <footer class="" id="contact">
         <div class="container">
             <div class="footer-content">
                
-                <p style="color: var(--text-gray); margin-bottom: 30px;">Vamos criar algo incrível juntos! Entre em contato para discutir seu próximo projeto.</p>
-                
                 <div class="social-icons">
-                    <a href="#" class="social-icon">
+                    <a href="https://github.com/Patrickhenrique1215" target="_blank" rel="noopener noreferrer" class="social-icon">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="#" class="social-icon">
+                    <a href="https://www.linkedin.com/in/patrick-henrique-santos1215" target="_blank" rel="noopener noreferrer"class="social-icon">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="#" class="social-icon">
+                    <a href="mailto:patrick.henrique.1215@gmail.com" class="social-icon">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </div>
                 
                 <div class="copyright">
-                    <small>Desenvolvido com ❤️ e café</small>
+                    <small>Desenvolvido por: ✌🏻EU</small>
                 </div>
             </div>
         </div>
     </footer>
-	
-	<script src="js.js" defer></script>
+
+
 </body>
 </html>
