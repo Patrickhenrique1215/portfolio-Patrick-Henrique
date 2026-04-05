@@ -336,6 +336,15 @@ li{
     font-size: 2.5rem;
     margin-bottom: 15px;
     display: block;
+   
+}
+
+.skill-item > :is(i, h3, span, svg) {
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover > :is(i, h3, span, svg) {
+    transform: scale(1.1);
 }
 
 

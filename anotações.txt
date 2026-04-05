@@ -1,5 +1,3 @@
 consertar o tamanho dos cards que devem ser independentes
 
-hover de escala no conteudo das habilidades
-
 e a mesma sombra de hover que colaboraçao e e carreira nos cards das habilidades
