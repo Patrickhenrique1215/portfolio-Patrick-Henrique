@@ -171,7 +171,8 @@ li{
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns:  1fr;
+    align-items: start;
     gap: 30px;
     animation: fadeIn 1.2s ease-out;
     
@@ -186,6 +187,7 @@ li{
     border: 1px solid rgba(59, 130, 246, 0.1);
     margin: 0 2px;
     cursor: pointer;
+    
 }
 
 .project-card:hover {
@@ -229,6 +231,7 @@ li{
 
 .project-info {
     padding: 25px;
+    
 }
 
 .project-info h3 {
@@ -328,9 +331,18 @@ li{
     padding: 25px 2px;
     text-align: center;
     box-shadow: var(--shadow);
-    user-select: none
+    user-select: none;
+
+     transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
+.skill-item:hover{
+    transform: translateY(-5px);
+    border-color: rgba(108, 99, 255, 0.5);
+    box-shadow: 0 12px 48px rgba(108, 99, 255, 0.2);
+}
 
 .skill-item i{
     font-size: 2.5rem;
@@ -494,51 +506,55 @@ footer {
 
 @media (min-width: 992px){
 
-  .hero{
-    margin: 0;
-    padding: 5vh 2vw 0 2vw;
-    height: 100vh;
-  }
+    .cursor-glow {
+        width: 50px;
+        height: 50px;
+   
+        border-radius: 50%;
+        position: fixed;
+        pointer-events: none;
+        z-index: 9999;
+        transition: transform 0.1s ease;
+        box-shadow: 0 0 48px rgba(108, 99, 255, 0.4);
+    }
 
-  .hero h1{
-    margin: 18vh 0 2vw 0;
-  }
+    .hero{
+        margin: 0;
+        padding: 5vh 2vw 0 2vw;
+        height: 100vh;
+    }
 
-  .typewriter{
-    font-size: 1.4rem;
-  }
+    .hero h1{
+        margin: 18vh 0 2vw 0;
+    }
 
-  .hero p{
-    margin-bottom: 10px;
-    text-indent: 0;
-  }
+    .typewriter{
+        font-size: 1.4rem;
+    }
 
-  .projects-grid {
-    margin: 0 3vw;
-  }
+    .hero p{
+        margin-bottom: 10px;
+        text-indent: 0;
+    }
 
-  .goals {
-    padding: 4rem 2rem;
-  }
+    .projects-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 3vw;
+    }
 
-  .goals-grid{
-    flex-direction: row;
-  }
+    .goals {
+        padding: 4rem 2rem;
+    }
 
-  button:hover::before {
-    width: 45vw;
-    height: 50vh;
-  }
+    .goals-grid{
+        flex-direction: row;
+    }
 
-  .cursor-glow {
-    width: 50px;
-    height: 50px;
-    border: 1px solid rgba(162, 154, 239, 0.5);
-    border-radius: 50%;
-    position: fixed;
-    pointer-events: none;
-    z-index: 9999;
-    transition: transform 0.1s ease;
-}
+    button:hover::before {
+        width: 45vw;
+        height: 50vh;
+    }
+
+ 
         
 }
