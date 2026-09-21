@@ -13,6 +13,10 @@ document.querySelector('#projeto3').addEventListener('click', function() {
   window.open('https://animaverso-three.vercel.app', '_blank');
 });
 
+document.querySelector('#projeto5').addEventListener('click', function() {
+  window.open('https://fabielepires.vercel.app', '_blank');
+});
+
 
 //EFEITO DO CURSOR
 const glow = document.querySelector('.cursor-glow');
